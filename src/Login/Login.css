@@ -1,0 +1,73 @@
+.container{
+    width: 450px;
+    background-color: rgba(255,255,255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    /* color: #fff; */
+    color: #000;
+}
+.container .input-field{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+.input-field input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255, 0.2);
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    padding:  20px 45px;
+}
+
+.input-field input::placeholder{
+    color: #fff;
+}
+.input-field .icon{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #fff;
+}
+.container .reacl-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+.reacl-forget input{
+    margin-right: 5px;
+}
+p a:hover {
+    background-color: red;
+}
+.container button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -16,3 +16,6 @@ https://github.com/matheusbattisti/tela_login_react/
     npm cd nomeDoProjeto
     npm install
     npm run dev
+#### Dependências
+* Icons
+npm i @react-icons/all-files react-icons
