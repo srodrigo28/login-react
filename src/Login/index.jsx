@@ -9,7 +9,15 @@ export function Login(){
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(username, password)
+        
+        if(username === '' || password === ''){
+            alert('Preencha todos os campos')
+            return false
+        }else{
+            setPassword('')
+            setUsername('')
+            alert('Login efetuado com sucesso')
+        }
     }
 
     return(
